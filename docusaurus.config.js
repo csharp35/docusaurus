@@ -3,18 +3,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: '亿思维文档中心',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://doc.yesvsoft.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: '亿思维文档中心', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '文档首页',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -47,11 +47,11 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: '亿思维',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '亿思维官网',
+              href: 'https://www.yesvsoft.com',
             },
             {
               label: 'Discord',
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 亿思维科技`,
     },
     prism: {
       theme: lightCodeTheme,
